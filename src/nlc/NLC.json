@@ -1,0 +1,41 @@
+{   "name": "IBMcloudWeather",
+	"version": "0.0.1",
+	"classes": [
+		{
+			"class": "twc.weather.help",
+			"emittarget": "twc.weather.help",
+			"texts": [
+				"I want help with the weather.",
+				"What can I do with weather",
+				"help weather"
+			]
+		},
+		{
+			"class": "twc.services.list",
+			"emittarget": "twc.services.list",
+			"texts": [
+				"Set the type of weather data returne",
+				"What weather services are there?",
+				"List the weather options"
+			]
+		},
+		{
+			"class": "twc.weather.show",
+			"emittarget": "twc.weather.show",
+			"texts": [
+				"What is the weather like for",
+				"Please get the weather for",
+				"What is the temperature",
+				"Is it cold in",
+				"Will it rain in"
+			],
+			"parameters" : [
+				{
+					"name": "location",
+					"type": "city",
+					"prompt": "OK. What is the location you want to query?"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"ten.day.forecast": "10 day weather forecast",
+	"forty.eight.hour.forecast": "48 hour weather forecast",
+	"current.weather": "Current weather",
+	"twenty.four.hour.observations": "24 hour weather observations",
+	"pick.a.service": "OK, please let me know which service you would like to use?",
+	"service.selected": "Got it. Your future weather queries will be set to **%s**.",
+	"services.help": "View and select the weather information of interest: current, 24 hour forecast, 24 hour weather observations, 10-day forecast.",
+	"weather.for.help": "Obtains weather information for a location based on the service selected; defaults to current weather.",
+	"more": "More ...",
+	"getting.weather": "Got it, You want the weather for %s now.",
+	"error.weather": "I was unable to get the weather at this time.",
+	"no.match": "I was unable to match your query.",
+	"location.query.error": "An error occurred determining the weather for the given location.",
+	"provide.location": "Please provide a location.",
+	"not.a.choice": "That is not one of the choices.  Try again, or type exit.",
+	"unable.to.process": "I was unable to process your request. Error: %s",
+	"weather.for.city": "Got it! You want the weather for %s",
+	"need.a.location": "You want me to talk about the weather, but I need a location.",
+	"not.confident": "Probably you asked for the weather, but I am not too confident about that. Maybe you meant [%s]",
+	"pick.an.option": "Please pick an option",
+
+	"conversation.timed.out": "Our conversation timed out.  You can try again later.",
+	"conversation.try.again.or.exit": "That is not one of the choices. Try again, or type *exit*.",
+	"conversation.try.again.yes.no": "That is not one of the choices. Try *yes* or *no*.",
+
+	"cognitive.parse.problem.location": "I'm having problems understanding the provided location. To get the weatheruse *weather for [CITY] [STATE]*"
+}

@@ -1,0 +1,23 @@
+{
+	"location": {
+		"address": ["Charlotte, North Carolina, United States", "Charlottesville, Virginia, United States", "Charlotte Amalie, Saint Thomas, U.S. Virgin Islands", "Charlottetown, Prince Edward Island, Canada", "Charlotte, Michigan, United States", "Charlotte, Rochester, 14612, New York, United States", "Charlotte S Yeh, 650 F St NW, Washington, District of Columbia 20001, United States", "Charlotte Hall, Maryland, United States", "Charlotte, Tennessee, United States", "Charlotte Wilcox & Co., 1560 Broadway, New York City, New York 10036, United States"],
+		"adminDistrict": ["North Carolina", "Virginia", "Saint Thomas", "Prince Edward Island", "Michigan", "New York", "District of Columbia", "Maryland", "Tennessee", "New York"],
+		"adminDistrictCode": ["NC", "VA", null, null, "MI", "NY", "DC", "MD", "TN", "NY"],
+		"city": ["Charlotte", "Charlottesville", "Charlotte Amalie", "Charlottetown", "Charlotte", "Rochester", "Washington", "Charlotte Hall", "Charlotte", "New York City"],
+		"longitude": [-80.8431, -78.4767, -64.929996, -63.131, -84.8356, -77.6169, -77.020933, -76.778, -87.3397, -73.985049],
+		"postalCode": ["28280", "22902", "00802", "C1A 1K6", "48813", "14612", "20001", "20622", "37036", "10036"],
+		"latitude": [35.2271, 38.0293, 18.333855, 46.2333, 42.5637, 43.2551, 38.897586, 38.481, 36.1773, 40.758432],
+		"country": ["United States", "United States", "U.S. Virgin Islands", "Canada", "United States", "United States", "United States", "United States", "United States", "United States"],
+		"countryCode": ["US", "US", "VI", "CA", "US", "US", "US", "US", "US", "US"]
+	},
+	"metadata": {
+		"transaction_id": "c6ca571b-b002-4c17-b780-9165d787ae0f",
+		"generated_time": 1469041178750,
+		"total_cache_time_secs": 10800,
+		"status_code": 200,
+		"query": "Charlotte",
+		"language": "en-US",
+		"format": "json",
+		"version": "v3"
+	}
+}

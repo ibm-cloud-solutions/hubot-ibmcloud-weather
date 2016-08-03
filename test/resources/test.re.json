@@ -1,0 +1,134 @@
+{
+	"doc": {
+		"entities": {
+			"entity": [{
+				"class": "SPC",
+				"eid": "-E0",
+				"generic": false,
+				"level": "PRO",
+				"mentref": [{
+					"mid": "-M0",
+					"text": "me"
+				}],
+				"score": 1,
+				"subtype": "OTHER",
+				"type": "PERSON"
+			}]
+		},
+		"id": "",
+		"mentions": {
+			"mention": [{
+				"begin": 12,
+				"class": "SPC",
+				"corefScore": 1,
+				"eid": "-E0",
+				"end": 13,
+				"etype": "PERSON",
+				"head-begin": 12,
+				"head-end": 13,
+				"metonymy": false,
+				"mid": "-M0",
+				"mtype": "PRO",
+				"role": "PERSON",
+				"score": 0.5072567775180865,
+				"text": "me"
+			}]
+		},
+		"relations": {
+			"relation": null,
+			"version": "KLUE2_cascaded:2011_10_25"
+		},
+		"sents": {
+			"sent": [{
+				"begin": 0,
+				"dependency_parse": "@hubot NN 1 NP show VB -1 VP me PRP 1 NP the DT 4 -I weather NN 8 NP for IN 4 PP durham NN 5 NP , , 8 -E nc NNP 1 NP ",
+				"end": 8,
+				"parse": {
+					"score": -8.50562501791452,
+					"text": "[S [NP @hubot_NN NP] [VP show_VB [NP me_PRP NP] [NP [NP [NP the_DT weather_NN NP] [PP for_IN [NP durham_NN NP] PP] NP] ,_, [NP nc_NNP NP] NP] VP] S]"
+				},
+				"sid": 0,
+				"text": "@hubot show me the weather for durham, nc",
+				"tokens": {
+					"token": [{
+						"POS": "NN",
+						"begin": 0,
+						"end": 5,
+						"lemma": "@hubot",
+						"text": "@hubot",
+						"tid": 0,
+						"type": 0
+					}, {
+						"POS": "VB",
+						"begin": 7,
+						"end": 10,
+						"lemma": "show",
+						"text": "show",
+						"tid": 1,
+						"type": 0
+					}, {
+						"POS": "PRP",
+						"begin": 12,
+						"end": 13,
+						"lemma": "me",
+						"text": "me",
+						"tid": 2,
+						"type": 0
+					}, {
+						"POS": "DT",
+						"begin": 15,
+						"end": 17,
+						"lemma": "the",
+						"text": "the",
+						"tid": 3,
+						"type": 0
+					}, {
+						"POS": "NN",
+						"begin": 19,
+						"end": 25,
+						"lemma": "weather",
+						"text": "weather",
+						"tid": 4,
+						"type": 0
+					}, {
+						"POS": "IN",
+						"begin": 27,
+						"end": 29,
+						"lemma": "for",
+						"text": "for",
+						"tid": 5,
+						"type": 0
+					}, {
+						"POS": "NN",
+						"begin": 31,
+						"end": 36,
+						"lemma": "durham",
+						"text": "durham",
+						"tid": 6,
+						"type": 0
+					}, {
+						"POS": ",",
+						"begin": 37,
+						"end": 37,
+						"lemma": ",",
+						"text": ",",
+						"tid": 7,
+						"type": 2048
+					}, {
+						"POS": "NNP",
+						"begin": 39,
+						"end": 40,
+						"lemma": "nc",
+						"text": "nc",
+						"tid": 8,
+						"type": 4096
+					}]
+				},
+				"usd_dependency_parse": "@hubot NN 1 nsubj show VB -1 root me PRP 1 dobj the DT 4 det weather NN 8 npmod for IN 6 case durham NN 4 nmod , , 8 punct nc NNP 1 dobj"
+			}]
+		},
+		"sgml_char_info": null,
+		"sgml_sent_info": null,
+		"text": "@hubot show me the weather for durham, nc"
+	}
+}

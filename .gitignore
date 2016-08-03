@@ -1,0 +1,10 @@
+env
+node_modules
+gh-pages
+.npmrc
+*.log
+.hubot_history
+external-scripts.json
+.hubot_history
+config
+databases
