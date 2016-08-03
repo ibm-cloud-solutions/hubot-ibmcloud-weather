@@ -1,3 +1,8 @@
+[![Build Status](https://travis-ci.org/ibm-cloud-solutions/hubot-ibmcloud-weather.svg?branch=master)](https://travis-ci.org/ibm-cloud-solutions/hubot-ibmcloud-weather)
+[![Coverage Status](https://coveralls.io/repos/github/ibm-cloud-solutions/hubot-ibmcloud-weather/badge.svg?branch=cleanup)](https://coveralls.io/github/ibm-cloud-solutions/hubot-ibmcloud-weather?branch=master)
+[![Dependency Status](https://dependencyci.com/github/ibm-cloud-solutions/hubot-ibmcloud-weather/badge)](https://dependencyci.com/github/ibm-cloud-solutions/hubot-ibmcloud-weather)
+[![npm](https://img.shields.io/npm/v/hubot-ibmcloud-weather.svg?maxAge=2592000)](https://www.npmjs.com/package/hubot-ibmcloud-weather)
+
 # hubot-ibmcloud-weather
 
 A hubot script for obtaining weather information using IBM Cloud Weather Insights.
@@ -10,7 +15,7 @@ A hubot script for obtaining weather information using IBM Cloud Weather Insight
 * [License](#license)
 * [Contribute](#contribute)
 
-## Usage <a id="usage"></a>
+## Usage
 
 Steps for adding this to your existing hubot:
 
@@ -31,22 +36,22 @@ HUBOT_WATSON_RE_PASSWORD=<Watson Relationship Extraction Password>
 _Note_: Relationship extraction is optional.
 5. Start up your bot & off to the races!
 
-## Commands <a id="commands"></a>
+## Commands
 
 - `hubot weather help` - Show available commands in the weather category.
 - `hubot weather for [LOCATION]` - Obtains weather information for a location based on the service selected; defaults to current weather.
 - `hubot weather services` - View and select the weather information of interest: current, 24 hour forecast, 24 hour weather observations, 10-day forecast.
 
-## Hubot Adapter Setup <a id="hubot-adapter-setup"></a>
+## Hubot Adapter Setup
 
 Hubot supports a variety of adapters to connect to popular chat clients.  For more feature rich experiences you can setup the following adapters:
-- [Slack setup](./docs/adapters/slack.md)
-- [Facebook Messenger setup](./docs/adapters/facebook.md)
+- [Slack setup](https://github.com/ibm-cloud-solutions/hubot-ibmcloud-weather/blob/master/docs/adapters/slack.md)
+- [Facebook Messenger setup](https://github.com/ibm-cloud-solutions/hubot-ibmcloud-weather/blob/master/docs/adapters/facebook.md)
 
 
-## Development <a id="development"></a>
+## Development
 
-Please refer to the [CONTRIBUTING.md](./CONTRIBUTING.md) before starting any work.  Steps for running this script for development purposes:
+Please refer to the [CONTRIBUTING.md](https://github.com/ibm-cloud-solutions/hubot-ibmcloud-weather/blob/master/CONTRIBUTING.md) before starting any work.  Steps for running this script for development purposes:
 
 ### Configuration Setup
 
@@ -79,13 +84,13 @@ Hubot supports a variety of adapters to connect to popular chat clients.
 
 If you just want to use:
  - Terminal: run `npm run start`
- - [Slack: link to setup instructions](docs/adapters/slack.md)
- - [Facebook Messenger: link to setup instructions](docs/adapters/facebook.md)
+ - [Slack: link to setup instructions](https://github.com/ibm-cloud-solutions/hubot-ibmcloud-weather/blob/master/docs/adapters/slack.md)
+ - [Facebook Messenger: link to setup instructions](https://github.com/ibm-cloud-solutions/hubot-ibmcloud-weather/blob/master/docs/adapters/facebook.md)
 
-## License <a id="license"></a>
+## License
 
-See [LICENSE.txt](./LICENSE.txt) for license information.
+See [LICENSE.txt](https://github.com/ibm-cloud-solutions/hubot-ibmcloud-weather/blob/master/LICENSE.txt) for license information.
 
-## Contribute <a id="contribute"></a>
+## Contribute
 
-Please check out our [Contribution Guidelines](./CONTRIBUTING.md) for detailed information on how you can lend a hand.
+Please check out our [Contribution Guidelines](https://github.com/ibm-cloud-solutions/hubot-ibmcloud-weather/blob/master/CONTRIBUTING.md) for detailed information on how you can lend a hand.
