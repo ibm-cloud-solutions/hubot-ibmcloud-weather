@@ -3,6 +3,7 @@
 	"classes": [
 		{
 			"class": "twc.weather.help",
+			"description": "Help with the weather",
 			"emittarget": "twc.weather.help",
 			"texts": [
 				"I want help with the weather.",
@@ -12,6 +13,7 @@
 		},
 		{
 			"class": "twc.services.list",
+			"description": "Show existing weather services",
 			"emittarget": "twc.services.list",
 			"texts": [
 				"Set the type of weather data returne",
@@ -21,6 +23,7 @@
 		},
 		{
 			"class": "twc.weather.show",
+			"description": "Show current weather",
 			"emittarget": "twc.weather.show",
 			"texts": [
 				"What is the weather like for",
