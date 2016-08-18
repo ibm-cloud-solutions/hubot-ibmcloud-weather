@@ -119,7 +119,7 @@ module.exports = (robot) => {
 			prompt += `\n${index + 1}) ${SERVICES_TO_DISPLAY[key].label}`;
 		});
 
-		let regex = new RegExp('([1-' + SERVICES_TO_DISPLAY.length + ']+)');
+		let regex = utils.generateRegExpForNumberedList(SERVICES_TO_DISPLAY.length);
 		utils.getExpectedResponse(res, robot, switchBoard, prompt, regex).then((selectionRes) => {
 			let selection = parseInt(selectionRes.match[1], 10) - 1;
 			// store selection in the hubot brain
@@ -200,7 +200,7 @@ const geocode = (robot, res, city, state, service) => {
 				let l = matches.location.address.length;
 
 				let sb = new Conversation(robot);
-				let regex = new RegExp('([1-' + l + ']+)');
+				let regex = utils.generateRegExpForNumberedList(l);
 				utils.getExpectedResponse(res, robot, sb, prompt, regex).then((selectionRes) => {
 					let selection = parseInt(selectionRes.match[1], 10) - 1;
 					lon = matches.location.longitude[selection];
