@@ -49,8 +49,15 @@
   },
   "peerDependencies": {
     "hubot": "^2.19.0",
+	"hubot-conversation": "^1.1.1",
+	"hubot-ibmcloud-activity-emitter": "latest",
+	"hubot-ibmcloud-cognitive-lib": "latest",
     "hubot-ibmcloud-formatter": ">=0.0.29",
-    "i18n-2": "^0.6.3"
+	"hubot-ibmcloud-utils": "latest",
+    "i18n-2": "^0.6.3",
+	"lodash": "^4.13.1",
+	"request": "^2.72.0",
+	"watson-developer-cloud": "^1.9.4"
   },
   "engines": {
     "node": ">= 4.2.0"
@@ -60,12 +67,5 @@
     "index.js"
   ],
   "dependencies": {
-    "hubot-conversation": "^1.1.1",
-    "hubot-ibmcloud-cognitive-lib": "latest",
-    "hubot-ibmcloud-activity-emitter": "latest",
-    "hubot-ibmcloud-utils": "latest",
-    "lodash": "^4.13.1",
-    "request": "^2.72.0",
-    "watson-developer-cloud": "^1.9.4"
   }
 }
