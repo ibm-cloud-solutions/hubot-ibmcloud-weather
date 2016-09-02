@@ -1,6 +1,6 @@
 {
   "name": "hubot-ibmcloud-weather",
-  "version": "0.0.22",
+  "version": "0.0.23",
   "description": "A hubot script for obtaining weather information using IBM Cloud Weather Insights.",
   "main": "index.js",
   "repository": {
@@ -66,6 +66,5 @@
     "src",
     "index.js"
   ],
-  "dependencies": {
-  }
+  "dependencies": {}
 }
