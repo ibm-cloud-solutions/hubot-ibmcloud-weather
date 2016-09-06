@@ -23,7 +23,7 @@ const Helper = require('hubot-test-helper');
 const helper = new Helper('../src/scripts');
 const mockTWC = require('./mock.twc.api');
 
-var i18n = new (require('i18n-2'))({
+const i18n = new (require('i18n-2'))({
 	locales: ['en'],
 	extension: '.json',
 	directory: __dirname + '/../src/locales',
@@ -62,7 +62,7 @@ describe('Interacting with TWC via Natural Language', function() {
 				}
 			});
 
-			var res = { message: {text: 'List the weather options', user: {id: 'anId'}}, response: room };
+			let res = { message: {text: 'List the weather options', user: {id: 'anId'}}, response: room };
 			room.robot.emit('twc.services.list', res, {});
 		});
 	});
@@ -77,7 +77,7 @@ describe('Interacting with TWC via Natural Language', function() {
 				}
 			});
 
-			var res = { message: {text: 'Please get the weather for Charlotte NC', user: {id: 'anId'}}, response: room };
+			let res = { message: {text: 'Please get the weather for Charlotte NC', user: {id: 'anId'}}, response: room };
 			room.robot.emit('twc.weather.show', res, {location: 'Charlotte'});
 		});
 	});
@@ -93,7 +93,7 @@ describe('Interacting with TWC via Natural Language', function() {
 				}
 			});
 
-			var res = { message: {text: 'help weather', user: {id: 'anId'}}, response: room };
+			let res = { message: {text: 'help weather', user: {id: 'anId'}}, response: room };
 			room.robot.emit('twc.weather.help', res, {});
 		});
 	});
