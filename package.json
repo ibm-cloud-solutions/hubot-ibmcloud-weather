@@ -57,7 +57,7 @@
     "i18n-2": "^0.6.3",
     "lodash": "^4.13.1",
     "request": "^2.72.0",
-    "watson-developer-cloud": "^1.9.4"
+    "watson-developer-cloud": ">=2.1.4"
   },
   "engines": {
     "node": ">= 4.2.0"
