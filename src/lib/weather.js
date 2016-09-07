@@ -23,14 +23,14 @@ const path = require('path');
 const _ = require('lodash');
 const env = require(path.resolve(__dirname, 'env'));
 const weatherIcons = require(path.resolve(__dirname, 'weather.icon.urls.json'));
-var request = require('request');
+const request = require('request');
 
 // --------------------------------------------------------------
 // i18n (internationalization)
 // It will read from a peer messages.json file.  Later, these
 // messages can be referenced throughout the module.
 // --------------------------------------------------------------
-var i18n = new (require('i18n-2'))({
+const i18n = new (require('i18n-2'))({
 	locales: ['en'],
 	extension: '.json',
 	directory: __dirname + '/../locales',
@@ -54,7 +54,7 @@ function createWeatherUrl(endpoint, queryParams){
 			paramsStr = '?language=' + encodeURIComponent(queryParams.language);
 			delete queryParams.language;
 		}
-		for (var param in queryParams) {
+		for (let param in queryParams) {
 			if (queryParams.hasOwnProperty(param)) {
 				paramsStr += '&' + param + '=' + encodeURIComponent(queryParams[param]);
 			}
